@@ -1,0 +1,159 @@
+<html>
+  <head>
+    <title>Ardii Youth </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+   <link rel="stylesheet" href="styles/index.css" />
+   
+      
+  </head>
+
+  <body onLoad="alert('Welcome to Ardii Youth Academy!!!');">
+      <div id="ardilogo">
+
+      </div>
+      
+    <nav>
+          <input type="checkbox" id="check">    
+          <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+          </label>
+          
+              
+          
+        <label class="logo" >
+          ARDII
+        </label>
+          
+        <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./aboutus.html">About Us</a></li>
+        <li><a href="./aboutus.html"> News</a></li>
+        <li><a href="./contactus.html">Contact Us</a>
+            </li>     
+        <li><a href="./notice.html">Notice</a></li>
+            <li><a href="./gallery.html">Gallery</a></li>
+       
+        <li><a href="./testimonials.html">Testimonials</a></li>
+       </ul>
+          
+      </nav>
+      
+      <section>
+          
+
+ <form name="contactUs">
+  
+ 
+    <h1>CONTACT US</h1>
+           <!--
+<div>Henok Bezawork Sahile</div>
+-->
+  <div>
+    <label class="desc" id="title1" for="Field1">Full Name</label>
+    <div>
+      <input id="Field1" name="Field1" type="text" class="field text fn" value="" size="8" tabindex="1">
+    </div>
+  </div>
+    
+  <div>
+    <label class="desc" id="title3" for="Field3">
+      Email
+    </label>
+    <div>
+      <input id="Field3" name="Field3" type="email" spellcheck="false" value="" maxlength="255" tabindex="3"> 
+   </div>
+  </div>
+    
+  <div>
+    <label class="desc" id="title4" for="Field4">
+      Message
+    </label>
+  
+    <div>
+      <textarea id="Field4" name="Field4" spellcheck="true" rows="10" cols="50" tabindex="4"></textarea>
+    </div>
+  </div>
+    
+  <div>
+    <fieldset>
+    
+      <legend id="title5" class="desc">
+        Gender
+      </legend>
+      
+      <div>
+      	<input id="radioDefault_5" name="Field5" type="hidden" value="">
+          
+      	<div>
+      		<input id="Field5_0" name="Field5" type="radio" value="First Choice" tabindex="5" checked="checked">
+      		<label class="choice" for="Field5_0">Male</label>
+      	</div>
+        <div>
+        	<input id="Field5_1" name="Field5" type="radio" value="Second Choice" tabindex="6">
+        	<label class="choice" for="Field5_1">Female</label>
+        </div>   
+      </div>
+        
+    </fieldset>
+  </div>
+  
+  <div>
+    <fieldset>
+      <legend id="title6" class="desc">
+        Check All That Apply
+      </legend>
+      
+      <div>
+      	<input id="Field6" name="Field6" type="checkbox" value="First Choice" tabindex="8">
+      	<label class="choice" for="Field6">First Choice</label>
+      </div>
+        
+      <div>
+      	<input id="Field7" name="Field7" type="checkbox" value="Second Choice" tabindex="9">
+      	<label class="choice" for="Field7">Second Choice</label>
+      </div>
+          
+      <div>
+      	<input id="Field8" name="Field8" type="checkbox" value="Third Choice" tabindex="10">
+      	<label class="choice" for="Field8">Third Choice</label>
+     
+      </div>
+        
+    </fieldset>      
+  </div>
+  
+  <div>
+      
+    <label class="desc" id="title106" for="Field106">
+    	I am a
+    </label>
+      
+    <div>
+    <select id="Field106" name="Field106" class="field select medium" tabindex="11"> 
+      <option value="First Choice">Student</option>
+      <option value="Second Choice">Teacher</option>
+      <option value="Third Choice">Parent</option>
+    </select>
+    </div>
+      
+  </div>
+  
+  <div>
+		<div>
+  		<input id="sendMessage" name="sendMessage" type="submit" value="Send" onclick="validator()">
+    </div>
+	</div>
+  
+</form>
+
+      </section>
+       <footer><h3>&copy 2020 Hennytech Web Solutions</h3>
+        <h4>Designed and Developed by Henok Bezawork<br/>
+          Phone:+251911816667<br/>
+          Email:henny8000@gmail.com</h4></footer>
+      
+       <script type="text/javascript" src="js/index.js"></script>
+        
+  </body>
+</html>
